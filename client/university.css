@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+}
+.navbar-brand {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover {
+    color: #AD69A8;
+}
+
+a {
+    color: black;
+}
+.half {
+    color: #00A9C2;
+}
+
+.full {
+    color: #AD69A8;
+} 
+
+.card-img-top{
+    height: 210px;
+}
+.card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+    
+}
+
+.btn5{
+    background-color: #00A9C2;
+    color: white;
+    width: 102.57px;
+    border-color: none;
+}
+.btn2{
+    background-color: #AD69A8;
+    color: white;
+}
+.btn2:hover{
+    background-color: #AD69A8;
+    color:white;
+}
+.card-header{
+    background-color: white
+}
+.footer{
+    background-color: black;
+    /* height: 150px; */
+    color: white;
+}
+
+.contact{
+    font-weight: 900;
+}
+.contact div i:hover{
+color: #AD69A8;
+}
+.container ul li{
+    list-style: none;
+
+}
+.ser p:hover{
+    color: #AD69A8;
+
+}
+.brouchers{
+    color: white;
+    outline-style: solid;
+    outline-width: 1px;
+        outline-color: #00A9C2;
+}
+.brouchers:hover{
+    color: white;
+    outline-style: none;
+    background-color: #AD69A8;
+    border-color: #AD69A8;
+}
+
+.conus{
+    color: #AD69A8;
+}
+.serus{
+    color: #AD69A8;
+}
+.down{
+    color: #AD69A8;
+}
+.container i a{
+    color: white;
+    text-decoration: none;
+}

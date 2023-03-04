@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+}
+.navbar-brand {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover {
+    color: #AD69A8;
+}
+
+a {
+    color: black;
+}
+.half {
+    color: #00A9C2;
+}
+
+.full {
+    color: #AD69A8;
+} 
+.imgg{
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relativeS;
+
+}
+.imgg img{
+    align-items: center;
+}
+
+.ab{
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.azov{
+    color: #AD69A8;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+.footer{
+    background-color: black;
+    /* height: 150px; */
+    color: white;
+}
+.footer{
+    background-color: black;
+    /* height: 150px; */
+    color: white;
+}
+.btn2{
+    background-color: #AD69A8;
+    border: none;
+
+}
+.contact{
+    font-weight: 900;
+}
+.contact div i:hover{
+color: #AD69A8;
+}
+.container ul li{
+    list-style: none;
+
+}
+.ser p:hover{
+    color: #AD69A8;
+
+}
+.broucher{
+    color: white;
+    border-color: #00A9C2;
+}
+.broucher:hover{
+    color: white;
+    background-color: #AD69A8;
+    border-color: #AD69A8;
+}
+
+.conus{
+    color: #AD69A8;
+}
+.serus{
+    color: #AD69A8;
+}
+.down{
+    color: #AD69A8;
+}
+.container i a{
+    color: white;
+    text-decoration: none;
+}
+.abb{
+    text-align: justify;
+}
+
+@media (min-width: 576px) { 
+    .imgg{
+        left: 87px;
+    }
+ }
+
+@media (min-width: 768px) {
+    .imgg{
+        left: 195px;
+    }
+  }
+
+@media (min-width: 992px) { 
+    .imgg{
+        left: -52px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .imgg{
+    }
+}

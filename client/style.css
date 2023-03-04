@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    
+}
+.navbar-brand {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover {
+    color: #AD69A8;
+}
+
+a {
+    color: black;
+}
+.half {
+    color: #00A9C2;
+}
+
+.full {
+    color: #AD69A8;
+} 
+#Home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/college.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 95vh;
+    position: relative;
+}
+.azov{
+    color: #AD69A8;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+.head {
+    color: #00A9C2;
+}
+
+.text-white {
+    color: white;
+}
+
+.para p {
+    color: white;
+}
+.para p:hover {
+    color:#AD69A8
+}
+.con p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 12px;
+    
+}
+.ser1 p{
+    text-align: justify;
+}
+.card-text{
+    text-align: justify;
+}
+.con p{
+    text-align: justify;
+}
+.vm{
+    box-shadow: none;
+    border: none;
+}
+.vm p{
+    text-align: justify;
+    font-style: italic;
+}
+.cards{
+    background-color: #00A9C2;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.Content {
+    position: absolute;
+    top: 110px !important;
+}
+
+.para {
+    position: absolute;
+    top: 80px;
+    left: 21%;
+}
+.cntctbtn{
+color: white;
+border-color: #AD69A8;
+}
+.card-img-top
+.azov{
+    color: #AD69A8;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 600;
+
+}
+.cntctbtn:hover{
+    color: white;
+    background-color: #00A9C2;
+    border-color:#00A9C2;
+    }
+    .team{
+        height: 271px;
+    }
+    .about{
+        height: 271px;
+    }
+    .btn2{
+        background-color: #AD69A8;
+        border: none;
+
+    }
+.footer{
+    background-color: black;
+    /* height: 150px; */
+    color: white;
+}
+.contact{
+    font-weight: 900;
+}
+.contact div i:hover{
+color: #AD69A8;
+}
+.container ul li{
+    list-style: none;
+
+}
+.ser p:hover{
+    color: #AD69A8;
+
+}
+.broucher{
+    color: white;
+    border-color: #00A9C2;
+}
+.broucher:hover{
+    color: white;
+    background-color: #AD69A8;
+    border-color: #AD69A8;
+}
+
+.conus{
+    color: #AD69A8;
+}
+.serus{
+    color: #AD69A8;
+}
+.down{
+    color: #AD69A8;
+}
+.container i a{
+    color: white;
+    text-decoration: none;
+}
+
+    /* .text-center{
+        font-family: sans-serif;
+        font-size: 10px;
+    } */
+@media(max-width:990px) {
+    .para {
+        position: absolute;
+        left: 1%;
+        top: 304px;
+    }
+    .Content {
+        position: absolute;
+        top: 56px !important;
+    }
+}
+
+@media(max-width:490px) {
+    h1 {
+        font-size: 18px
+    }
+}
+
+
+
+
+
+
+
